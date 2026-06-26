@@ -1,0 +1,228 @@
+import { StatItem, ServiceCard, BlogPost } from './types';
+
+export const ABOUT_STATS: StatItem[] = [
+  {
+    id: 'deployed',
+    value: '500+',
+    label: 'Technical Experts Deployed',
+  },
+  {
+    id: 'retention',
+    value: '98%',
+    label: 'Client Retention Rate',
+  },
+  {
+    id: 'transformations',
+    value: '150+',
+    label: 'Enterprise Transformations Completed',
+  },
+  {
+    id: 'support',
+    value: '24/7',
+    label: 'Global Operations Support',
+  },
+];
+
+export const STAFFING_SERVICES: ServiceCard[] = [
+  {
+    id: 'perm-staffing',
+    title: 'Permanent Staffing',
+    description: 'Secure premier engineering leaders, architects, and high-performance core developers engineered for your long-term organizational success.',
+    iconName: 'UserCheck',
+    imageUrl: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'contract-staffing',
+    title: 'Contract Staffing',
+    description: 'Instantly scale engineering capacity with flexible, on-demand elite contractors aligned precisely with project milestones and technical requirements.',
+    iconName: 'Zap',
+    imageUrl: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'contract-to-hire',
+    title: 'Contract-to-Hire',
+    description: 'Evaluate senior technical practitioners in real-world scenarios before extending permanent roles, minimizing hiring friction and risk.',
+    iconName: 'UserPlus',
+    imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'rpo-services',
+    title: 'Recruitment Process Outsourcing (RPO)',
+    description: 'Delegate your end-to-end global technical recruitment lifecycle to our dedicated talent teams, dramatically reducing time-to-hire metrics.',
+    iconName: 'Users',
+    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'remote-talent',
+    title: 'Remote Talent Acquisition',
+    description: 'Sustain access to a highly competitive global talent pool of borderless engineering professionals, fully vetted and ready to onboard.',
+    iconName: 'Globe',
+    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'dedicated-teams',
+    title: 'Dedicated Development Teams',
+    description: 'Acquire highly collaborative, fully autonomous agile development pods trained to build complex software systems from scratch.',
+    iconName: 'Cpu',
+    imageUrl: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'workforce-mgmt',
+    title: 'Workforce Management',
+    description: 'Optimize organizational workforce design, contractor compliance, resource allocations, and vendor management systems.',
+    iconName: 'Briefcase',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'talent-consulting',
+    title: 'Talent Consulting',
+    description: 'Comprehensive market analyses, salary indexing, retention auditing, and remote workspace scaling methodologies.',
+    iconName: 'Target',
+    imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'it-recruitment',
+    title: 'IT Recruitment',
+    description: 'Specialized pipeline sourcing for cloud architects, machine learning engineers, and cybersecurity specialists.',
+    iconName: 'Terminal',
+    imageUrl: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=600&q=80',
+  },
+];
+
+export const DIGITAL_SERVICES: ServiceCard[] = [
+  {
+    id: 'custom-software',
+    title: 'Custom Software Development',
+    description: 'Design and deliver production-grade, highly-scalable cloud-native web applications customized for your operational needs.',
+    iconName: 'Code',
+    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'enterprise-web',
+    title: 'Enterprise Web Applications',
+    description: 'Transform large-scale enterprise portals with dynamic dashboards, micro-frontends, and high-performance server integrations.',
+    iconName: 'Layers',
+    imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'mobile-app',
+    title: 'Mobile App Development',
+    description: 'Craft beautiful native and cross-platform mobile apps for iOS and Android optimized for user retention and offline access.',
+    iconName: 'Smartphone',
+    imageUrl: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'uiux-design',
+    title: 'UI/UX Design',
+    description: 'High-fidelity wireframing, component-driven design systems, custom animations, and seamless user experiences.',
+    iconName: 'MousePointer',
+    imageUrl: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'cloud-solutions',
+    title: 'Cloud Solutions',
+    description: 'Architecting resilient cloud-native landscapes utilizing modern serverless models and global auto-scaling infrastructure.',
+    iconName: 'Cloud',
+    imageUrl: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'devops-infra',
+    title: 'DevOps & CI/CD',
+    description: 'Automate deployments, implement infrastructure-as-code (IaC), monitor telemetry, and configure zero-downtime environments.',
+    iconName: 'GitBranch',
+    imageUrl: 'https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'ai-ml',
+    title: 'AI & Machine Learning',
+    description: 'Deploy advanced predictive analytics models, custom language processors, and smart automation systems inside your product.',
+    iconName: 'Brain',
+    imageUrl: 'https://images.unsplash.com/photo-1527474305487-b87b222841cc?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'data-engineering',
+    title: 'Data Engineering',
+    description: 'Construct real-time streaming pipelines, clean raw data flows, and setup cloud-native analytical databases.',
+    iconName: 'Database',
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'biz-intelligence',
+    title: 'Business Intelligence',
+    description: 'Empower executive alignment and strategic decision-making with automated real-time analytics reports and widgets.',
+    iconName: 'BarChart2',
+    imageUrl: 'https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'erp-solutions',
+    title: 'ERP Solutions',
+    description: 'Unify company operations, financials, warehousing, and procurement workflows with a robust modular ERP platform.',
+    iconName: 'Settings',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'crm-dev',
+    title: 'CRM Development',
+    description: 'Develop bespoke Customer Relationship Management systems focused on conversion tracking, lead routing, and automation.',
+    iconName: 'Smile',
+    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'api-dev',
+    title: 'API Development',
+    description: 'Engineer secured, highly integrated, self-documenting REST and GraphQL endpoints linking third-party enterprise tools.',
+    iconName: 'Activity',
+    imageUrl: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'cyber-security',
+    title: 'Cyber Security',
+    description: 'Ensure complete network hardening, zero-trust architectures, security audits, vulnerability scanning, and pen testing.',
+    iconName: 'Shield',
+    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'qa-testing',
+    title: 'Quality Assurance',
+    description: 'Ensure system dependability with exhaustive automated E2E testing, visual regression checking, and manual QA testing cycles.',
+    iconName: 'CheckCircle',
+    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'digital-transformation',
+    title: 'Digital Transformation',
+    description: 'Consultative roadmaps aimed at modernizing organizational tooling, workflows, and culture into data-driven models.',
+    iconName: 'RefreshCw',
+    imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80',
+  },
+];
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'post-1',
+    imageAlt: 'Navigating the Shift to Microservices Architecture',
+    category: 'Tech Trends',
+    title: 'Navigating the Shift to Microservices Architecture',
+    summary: 'A comprehensive operational blueprint detailing how modern businesses break down massive legacy software without interrupting current customer experiences.',
+    meta: 'June 2026 • 5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'post-2',
+    imageAlt: 'Overcoming the Talent Shortage in Cloud Engineering',
+    category: 'Staffing Strategy',
+    title: 'Overcoming the Talent Shortage in Cloud Engineering',
+    summary: 'Proven workforce acquisition models designed to attract, onboard, and retain high-tier infrastructure specialists in competitive market conditions.',
+    meta: 'May 2026 • 4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'post-3',
+    imageAlt: 'Best Practices for Zero-Trust Cloud Infrastructure',
+    category: 'Cloud Security',
+    title: 'Best Practices for Zero-Trust Cloud Infrastructure',
+    summary: 'An architectural review highlighting the essential configuration adjustments needed to safeguard decentralized business servers against evolving vulnerabilities.',
+    meta: 'April 2026 • 6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
+  },
+];
