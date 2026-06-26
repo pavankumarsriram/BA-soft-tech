@@ -16,21 +16,14 @@ export default function Hero({ onScrollToSection }: HeroProps) {
           
           {/* Left Column Text Content */}
           <div className="lg:col-span-7 space-y-8 text-left reveal-on-scroll is-visible">
-            <span className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-widest font-extrabold text-[#2563EB] bg-blue-50/95 backdrop-blur px-3.5 py-1.5 rounded-full border border-blue-100/60 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#2563EB]"></span>
-              </span>
-              ENGINEERING FUTURE GROWTH
-            </span>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-[54px] lg:leading-[1.12] font-extrabold text-slate-950 tracking-tight">
+            <h1 className="font-display text-3xl sm:text-4xl lg:text-4xl lg:leading-tight font-extrabold text-slate-950 tracking-tight">
               Empowering Modern Enterprises:{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] via-indigo-600 to-blue-700">
                 Transforming businesses
               </span>{' '}
               through top-tier talent and next-gen technology.
             </h1>
-            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl font-light">
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl font-light">
               BA Soft Tech delivers elite digital solutions and flexible workforce staffing models built to accelerate organizational velocity in a rapidly changing world.
             </p>
             
@@ -88,19 +81,19 @@ export default function Hero({ onScrollToSection }: HeroProps) {
           </div>
 
           {/* Right Column Visual (Premium Floating Interactive Layout) */}
-          <div className="lg:col-span-5 relative mt-10 lg:mt-0 select-none">
+          <div className="lg:col-span-5 relative mt-10 lg:mt-0 select-none flex justify-center">
             {/* Outer light glowing pulse background */}
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-full blur-3xl opacity-60 animate-pulse pointer-events-none" />
             
             {/* Main Stack Container with Parallax Float */}
-            <div className="relative animate-float mx-auto max-w-[420px] lg:max-w-none">
+            <div className="relative animate-float w-full max-w-[420px] lg:max-w-[450px]">
               {/* Visual Image */}
               <div className="relative z-10 overflow-hidden rounded-3xl border border-slate-200/60 bg-white/50 backdrop-blur p-3 shadow-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
                   alt="Enterprise Software Development"
                   referrerPolicy="no-referrer"
-                  className="w-full h-[320px] lg:h-[400px] object-cover rounded-2xl hover:scale-105 transition-transform duration-700"
+                  className="w-full h-[300px] sm:h-[350px] lg:h-[380px] object-cover rounded-2xl hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent rounded-2xl pointer-events-none" />
@@ -134,7 +127,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               {/* Floating Badge 3 (Middle Right) */}
               <div className="absolute top-1/2 -right-8 z-20 translate-y-[-50%] bg-white/95 backdrop-blur-md border border-slate-200/60 px-3.5 py-2 rounded-full shadow-lg flex items-center gap-2">
                 <Shield className="h-4 w-4 text-[#2563EB]" />
-                <span className="text-xs font-bold text-slate-850 tracking-tight">SOC2 Type II Secured</span>
+                <span className="text-xs font-bold text-slate-850 tracking-tight">SOC2 Secured</span>
               </div>
             </div>
           </div>
