@@ -1,0 +1,102 @@
+[
+  {
+    "id": "REQ-660081",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "test",
+    "phoneNumber": "09010288846",
+    "subject": "d",
+    "message": "d",
+    "recipientEmails": [
+      "aahil@ba-softtech.com",
+      "Nipun@ba-softtech.com"
+    ],
+    "timestamp": "2026-06-30T17:03:59.569Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-611042",
+    "fullName": "ddd",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "ddd",
+    "phoneNumber": "09010288846",
+    "subject": "ddd",
+    "message": "ddd",
+    "recipientEmails": [
+      "aahil@ba-softtech.com",
+      "Nipun@ba-softtech.com"
+    ],
+    "timestamp": "2026-06-30T17:01:29.693Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-739300",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "",
+    "phoneNumber": "09010288846",
+    "subject": "General Inquiry",
+    "message": "zxcghj",
+    "recipientEmails": [
+      "aahil@ba-softtech.com",
+      "Nipun@ba-softtech.com"
+    ],
+    "timestamp": "2026-06-30T16:58:03.533Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-154412",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "",
+    "phoneNumber": "09010288846",
+    "subject": "General Inquiry",
+    "message": "xxxx",
+    "timestamp": "2026-06-29T18:43:13.929Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-127660",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "",
+    "phoneNumber": "09010288846",
+    "subject": "General Inquiry",
+    "message": "gtff",
+    "timestamp": "2026-06-29T18:39:19.255Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-970350",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "",
+    "phoneNumber": "09010288846",
+    "subject": "General Inquiry",
+    "message": "ccfff",
+    "timestamp": "2026-06-29T18:36:22.288Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-118487",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "ddd",
+    "phoneNumber": "09010288846",
+    "subject": "dddddd",
+    "message": "dddd",
+    "timestamp": "2026-06-29T18:35:12.373Z",
+    "status": "New"
+  },
+  {
+    "id": "REQ-891945",
+    "fullName": "Ravi Kiran Kistarapu",
+    "businessEmail": "kirankistarapu1999@gmail.com",
+    "companyName": "chtfh",
+    "phoneNumber": "09010288846",
+    "subject": "gfgfghf",
+    "message": "cghfhghg",
+    "timestamp": "2026-06-29T18:33:13.457Z",
+    "status": "New"
+  }
+]
