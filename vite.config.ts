@@ -7,7 +7,6 @@ export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
       base: "/BA-soft-tech/",
-
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

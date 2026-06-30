@@ -1,4 +1,5 @@
 import React from 'react';
+import heroVideo from "../../assets/Videofinal.mp4";
 
 interface HeroProps {
   onScrollToSection: (id: string) => void;
@@ -12,15 +13,15 @@ export default function Hero({ onScrollToSection }: HeroProps) {
     >
       {/* Video Background */}
       <div className="absolute inset-0 -z-10 w-full h-full">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="/assets/.aistudio/Videofinal.mp4" type="video/mp4" />
-        </video>
+       <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-full object-cover"
+>
+  <source src={heroVideo} type="video/mp4" />
+</video>
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/40" />
       </div>
